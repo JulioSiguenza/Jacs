@@ -1,4 +1,18 @@
-referencia {
-    cualquier cosa, solo quiero subir a grid-template: inherit;
-    
+/* selector{
+    Propiedad: valor;
+
+}
+ */
+ .titulo{
+     color: red;
+ }
+ #parrafo{
+     color: red;
+     background-color: #ff9;
+ }
+[atributo="css"] {
+    color: green;
+}
+div p {
+    color: blue;
 }
