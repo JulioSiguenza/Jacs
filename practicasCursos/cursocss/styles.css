@@ -3,16 +3,84 @@
 
 }
  */
- .titulo{
-     color: red;
+ *{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: 100;
  }
- #parrafo{
-     color: red;
-     background-color: #ff9;
+
+ .nav_class{
+     background-color: #561;
  }
-[atributo="css"] {
-    color: green;
+
+
+ /* ocultar el menu responsive que es para moviles */
+.ul_responsive_class{
+    display: none;
 }
-div p {
-    color: blue;
+
+.li_class{
+    display: inline-block;
+    padding: 10px;
+    color: aliceblue;
+}
+.li_class a{
+    color: #fff;
+    text-decoration: none;
+}
+.li_class i{
+
+    width: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.div_responsive_class {
+    text-align: right;
+    padding: 6px 20px;
+    width: 100%;
+}
+
+
+  
+
+/* Activar modo responsive cuando llegue a los 500 px */
+@media only screen and (max-width: 500px){
+    .ul_class{
+        display: none;
+    }
+    .ul_responsive_class{
+        display: block;
+        position: absolute;
+        background-color: aqua ;
+        height: 100%;
+        width: 100%;
+        margin-top: 37px;
+    }
+    .li_responsive_class a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .li_responsive_class i{
+        width: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        color: #fff;
+
+    }
+    .li_responsive_class{
+        padding: 10px;
+
+    }
+    .nav_class{
+        height: 37px;
+        width: 100%;
+    }
+    .div_responsive_container{
+        width: 100%;
+        position: absolute;
+        background-color: #982;
+        font-size: 25px;
+        margin-top: -37px;
+    }
+
 }
