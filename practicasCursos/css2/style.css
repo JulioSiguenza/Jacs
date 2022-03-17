@@ -1,0 +1,39 @@
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 20px;
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+ 
+
+}
+
+
+.flex-item{
+    background-color: #292;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    min-width: 120px;
+    height: 120px;
+    text-align: center;
+
+
+
+}
+.orange{
+    background-color: orange;
+    flex-grow: 1;
+}
+.yellow{
+    background-color: yellow;
+    flex-grow: 1;
+
+}
