@@ -8,8 +8,8 @@ font-size: 20px;
 
 .flex-container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+
     height: 100vh;
  
 
@@ -18,22 +18,34 @@ font-size: 20px;
 
 .flex-item{
     background-color: #292;
-    padding: 10px;
-    margin: 10px;
+
     color: #fff;
     min-width: 120px;
     height: 120px;
     text-align: center;
+    flex-grow: 1;
+
+    width: 300px;
+    order: 30;
 
 
 
 }
 .orange{
     background-color: orange;
-    flex-grow: 1;
+    /* ceder espacio  shrink */
+    /* flex-shrink: 0.1; */
+
+    /* order ordena dependiendo del numero de menor a mayor apuntando al croos axis */
+    order: 200;
+    /* el flex tiene a grow shrink y basis en uno solo, se debe pasar un parametro como minimo */
+    flex:1 4 300px ;
+
+
 }
 .yellow{
     background-color: yellow;
-    flex-grow: 1;
+    flex-grow: 4;
+    order: 80;
 
 }
